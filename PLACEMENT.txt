@@ -1,1 +1,1 @@
-Copy the six PHP pages, style.css and script.js directly into the original Midterm_Project root. Keep images/. Do not put this wrapper folder inside the website. Back up original files and compare changes in Sublime Text. See README_START_HERE.md.
+Copy all contents of this folder (including hidden files) into the same original Midterm_Project root, preserving subfolders. Do not flatten admin/core/database/tools/storage. Copy config.example.php to config.local.php privately and follow README_START_HERE.md. Do not commit local credentials or storage contents.
