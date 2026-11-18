@@ -1,0 +1,1 @@
+Copy the six PHP pages, style.css and script.js directly into the original Midterm_Project root. Keep images/. Do not put this wrapper folder inside the website. Back up original files and compare changes in Sublime Text. See README_START_HERE.md.
