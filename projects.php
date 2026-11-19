@@ -23,7 +23,6 @@ $projects = rows($db, 'projects');
         <li><a href="projects.php" class="active">Projects</a></li>
         <li><a href="resume.php">Resume</a></li>
         <li><a href="contact.php">Contact</a></li>
-        <li><a href="admin/login.php">Portfolio Studio</a></li>
         <li><button id="themeToggle" class="theme-btn"><i class="fas fa-moon"></i></button></li>
       </ul>
     </nav>
@@ -63,7 +62,7 @@ $projects = rows($db, 'projects');
       <a href="<?= h(socialUrl($profile['facebook'])) ?>" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
       <a href="mailto:<?= h($profile['email']) ?>" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
     </div>
-    <p>© <?= date('Y') ?> <?= h($profile['full_name']) ?>. All rights reserved.</p>
+    <p>© <?= date('Y') ?> <?= h($profile['full_name']) ?>. All rights reserved. <a href="admin/login.php">Admin</a></p>
   </footer>
 
   <button id="scrollTop" class="scroll-top"><i class="fas fa-arrow-up"></i></button>
