@@ -23,6 +23,7 @@ require __DIR__ . '/core/public.php';
         <li><a href="projects.php">Projects</a></li>
         <li><a href="resume.php">Resume</a></li>
         <li><a href="contact.php">Contact</a></li>
+        <li><a href="admin/login.php">Portfolio Studio</a></li>
         <li><button id="themeToggle" class="theme-btn"><i class="fas fa-moon"></i></button></li>
       </ul>
     </nav>
@@ -53,7 +54,7 @@ require __DIR__ . '/core/public.php';
       <a href="<?= h(socialUrl($profile['facebook'])) ?>" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
       <a href="mailto:<?= h($profile['email']) ?>" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
     </div>
-    <p>© <?= date('Y') ?> <?= h($profile['full_name']) ?>. All rights reserved. <a href="admin/login.php">Admin</a></p>
+    <p>© <?= date('Y') ?> <?= h($profile['full_name']) ?>. All rights reserved.</p>
   </footer>
 
   
