@@ -1,4 +1,7 @@
-config.local.php
+config.local.php*
 storage/*
 !storage/.htaccess
+*.sql
+*.sql.*
+!/database/jester_portfolio.sql
 *.log
