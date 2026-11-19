@@ -616,7 +616,7 @@ footer {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .menu-toggle {
     display: block;
   }
@@ -646,9 +646,7 @@ footer {
   .nav-links a {
     width: 100%;
   }
-}
 
-@media (max-width: 768px) {
   .hero {
     flex-direction: column-reverse;
     text-align: center;
